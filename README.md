@@ -104,4 +104,5 @@ python app.py
 Created by:
  - Sindre Moene — Computer Engineering @ HVL
  - Leah Beathe Sandberg — Computer Engineering @ HVL
+ 
 For questions: Add your email or GitHub issues page

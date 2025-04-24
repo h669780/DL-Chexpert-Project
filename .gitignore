@@ -1,0 +1,8 @@
+# .gitignore
+__pycache__/
+*.pyc
+*.h5
+*.keras
+.DS_Store
+#examples/*.jpg
+*.ipynb_checkpoints/

@@ -1,0 +1,7 @@
+gradio
+tensorflow
+focal-loss
+numpy
+Pillow
+matplotlib
+opencv-python

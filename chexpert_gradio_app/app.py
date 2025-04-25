@@ -10,10 +10,10 @@ import cv2
 import tensorflow as tf
 
 # Load model
-model = load_model("none_freeze.keras", custom_objects={"BinaryFocalLoss": BinaryFocalLoss, "AUC": AUC})
+model = load_model("final_model.keras", custom_objects={"BinaryFocalLoss": BinaryFocalLoss, "AUC": AUC})
 labels = ["Pleural Effusion", "Edema", "Cardiomegaly"]
 last_conv_layer_name = "conv5_block16_2_conv"  # Adjust if needed
-best_thresholds = [0.75, 0.70, 0.73]
+best_thresholds = [0.75, 0.70, 0.73] 
 
 
 # Prediction logic

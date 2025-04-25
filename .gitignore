@@ -1,6 +1,6 @@
 # .gitignore
 __pycache__/
-*.pyc
+# *.pyc
 *.h5
 *.keras
 .DS_Store
